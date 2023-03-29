@@ -1,0 +1,34 @@
+package chap999_homework_2023_03_27;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) {
+		
+		//1. 
+		Scanner sc = new Scanner(System.in);		
+		
+//		ArrayList<Integer> inputNum = new ArrayList<Integer>(5);
+//		
+//		System.out.println("입력해5개");
+//		inputNum.add(new Integer(sc.nextInt()));
+//		inputNum.add(new Integer(sc.nextInt()));
+//		inputNum.add(new Integer(sc.nextInt()));
+//		inputNum.add(new Integer(sc.nextInt()));
+//		inputNum.add(new Integer(sc.nextInt()));
+//		
+//		System.out.println(inputNum);
+		
+		ArrayList<Integer> list1 = new ArrayList<Integer>(sc.nextInt());
+		System.out.println(list1);
+		//2.
+		
+		
+		
+		
+	}
+
+}

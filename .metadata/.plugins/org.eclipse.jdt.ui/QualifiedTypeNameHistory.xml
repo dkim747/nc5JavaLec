@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="chap08_static.clazz.Car"/>
+    <fullyQualifiedTypeName name="chap10_abstraction.academy.Academy"/>
+    <fullyQualifiedTypeName name="chap11_interface.device.LgTv"/>
+    <fullyQualifiedTypeName name="chap11_interface.device.Tv"/>
+    <fullyQualifiedTypeName name="chap11_interface.device.ElectronicDevice"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass._02_instanceOfNestedClass"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.NestedClass.Mul"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.NestedClass.Div"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.NestedClass.Sub"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.NestedClass.Add"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.Car"/>
+    <fullyQualifiedTypeName name="chap12_nestedclass.clazz.Calc"/>
+    <fullyQualifiedTypeName name="chap999_homework_2023_03_21.Basic.HybridCar"/>
+    <fullyQualifiedTypeName name="chap999_homework_2023_03_21.Basic.FuelCar"/>
+    <fullyQualifiedTypeName name="chap999_homework_2023_03_21.Basic.Car"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.RGB"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.MethodMonth"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.Calculator"/>
+</qualifiedTypeNameHistroy>

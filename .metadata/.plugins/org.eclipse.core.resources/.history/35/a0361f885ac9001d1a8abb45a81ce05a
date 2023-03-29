@@ -1,0 +1,30 @@
+package chap999_homework_2023_03_23;
+
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("문장 3개를 입력하세요.");
+		String str1 = sc.nextLine();
+		String str2 = sc.nextLine();
+		String str3 = sc.nextLine();
+		System.out.println(str1.concat(str2).concat(str3));
+		
+		
+		StringBuffer str4 = new StringBuffer("hello");
+		//str5 = str4.capacity(30)
+				
+		double num = 16.459;
+		System.out.println((double)Math.round(num*100)/100);
+		
+		String str5 = "145.987";
+		String Str6 = "-563.11";
+		
+		
+	}
+
+}

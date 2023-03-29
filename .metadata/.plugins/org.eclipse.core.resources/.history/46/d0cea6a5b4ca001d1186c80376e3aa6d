@@ -1,0 +1,24 @@
+package chap999_homework_2023_03_16;
+
+public class _homeworkBasic01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr = new int[10];
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+			
+			
+		
+	}
+
+}

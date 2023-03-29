@@ -1,0 +1,25 @@
+package chap999_homework_2023_03_28;
+
+public class GenericCla<T> {
+	
+	private T t;
+
+	public T getT() {
+		return t;
+	}
+
+	public void setT(T t) {
+		this.t = t;
+	}
+	
+	public static <T> String add(T t1, T t2) {
+		StringBuffer sb1 = new StringBuffer((String)t1);
+		StringBuffer sb2 = new StringBuffer((String)t2);
+		String sum = sb1.append(sb2);
+		return sb1.append(sb2);
+	}
+	
+	public static Integer add(List<?> list) {
+		
+	}
+}

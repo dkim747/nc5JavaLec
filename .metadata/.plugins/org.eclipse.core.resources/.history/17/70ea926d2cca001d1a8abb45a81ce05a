@@ -1,0 +1,20 @@
+package chap999_homework_2023_03_24;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Middle {
+
+	public static void main(String[] args) {
+		
+		Date today = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		
+		String a = sdf.format(today);
+		System.out.println(sdf.format(today));
+		Scanner sdf.format(today) = new Scanner(System.in);
+		
+	}
+
+}

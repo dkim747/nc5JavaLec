@@ -1,0 +1,19 @@
+package chap15_usefulClass;
+
+import java.util.Scanner;
+
+public class _10_MathEx {
+
+	public static void main(String[] args) {
+		
+		//사용자가 5개 정수 입력 => 배열에 저장
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int[] arr = new int[5];
+		
+		
+		
+		//Math.max와 Math.min을 이용하여 최소값 최대값 구하기
+	}
+
+}

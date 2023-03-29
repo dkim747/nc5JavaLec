@@ -1,0 +1,40 @@
+package chap999_homework_2023_03_15;
+
+import java.util.Scanner;
+
+public class Advanced {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("돈을 입금하세요!");
+		int money = sc.nextInt();
+		int count;
+		
+		int a = money / 50000;
+		money = money % 50000;
+		int b = money / 10000;
+		money = money % 10000;
+		int c = money / 5000;
+		money = money % 5000;
+		int d = money / 1000;
+		money = money % 1000;
+		int e = money / 500;
+		money = money % 500;
+		int f = money / 100;
+		money = money % 100;
+		int g = money / 50;
+		money = money % 50;
+		int h = money / 10;
+		
+		System.out.println("5만원: " + a + "1만원: " + b + "5천원: " + c + 
+							"1천원: " + d + "500원: " + e + "100원: " + f +
+							"50원: " + g + "10원: " + h);
+		
+		
+		
+		
+		
+	}
+
+}

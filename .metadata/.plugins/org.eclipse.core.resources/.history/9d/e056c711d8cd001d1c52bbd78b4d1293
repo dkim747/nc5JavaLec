@@ -1,0 +1,8 @@
+package chap18_enum.enums;
+
+public enum RGB {
+	
+	//상수명 RED("red", 255, 0, 0), 
+	//	   GREEN(
+	//		BLUE( 
+}

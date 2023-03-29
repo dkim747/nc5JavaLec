@@ -1,0 +1,105 @@
+package chap18_enum.enums;
+
+public enum Season {
+	SPRING("봄", 3, 4, 5){
+		public void printKoreaSeason(){
+			String[]  = {"봄", "여름", "가을", "겨울"};
+		
+			int index = 0;
+		
+			for(String s: koreaSeason) {
+				if(index == 0) {
+					System.out.println(s + ", ");
+				}else {
+					System.out.println(s+" ");
+				}
+				index++;
+			}
+			System.out.println("월 입니다");
+		}
+	}, 
+	SUMMER("여름", 6, 7, 8){
+		public void printKoreaSeason(){
+			String[] koreaSeason = {"봄", "여름", "가을", "겨울"};
+		
+			int index = 0;
+		
+			for(String s: koreaSeason) {
+				if(index == 0) {
+					System.out.println(s + ", ");
+				}else {
+					System.out.println(s+" ");
+				}
+				index++;
+			}
+		}
+		
+	}, 
+	FALL("가을", 9, 10, 11){
+		public void printKoreaSeason(){
+			String[] koreaSeason = {"봄", "여름", "가을", "겨울"};
+		
+			int index = 0;
+		
+			for(String s: koreaSeason) {
+				if(index == 0) {
+					System.out.println(s + ", ");
+				}else {
+					System.out.println(s+" ");
+				}
+				index++;
+			}
+		}
+		
+	}, 
+	WINTER("겨울", 12, 1, 2){
+		public void printKoreaSeason(){
+			String[] koreaSeason = {"봄", "여름", "가을", "겨울"};
+		
+			int index = 0;
+		
+			for(String s: koreaSeason) {
+				if(index == 0) {
+					System.out.println(s + ", ");
+				}else {
+					System.out.println(s+" ");
+				}
+				index++;
+			}
+		}
+		
+	};
+	
+	
+	private String spring;
+	private String summer;
+	private String fall;
+	private String winnter;
+	
+	
+	Season(String spring, String summer, String fall, String winter){
+		this.spring = spring;
+		this.summer = summer;
+		this.fall = fall;
+		this.winnter = winter;
+		
+	}
+	
+	public String getSpring() {
+		return spring;
+	}
+
+	public String getSummer() {
+		return summer;
+	}
+
+	public String getFall() {
+		return fall;
+	}
+
+	public String getWinnter() {
+		return winnter;
+	}
+
+	public abstract void printKoreaSeason();
+}

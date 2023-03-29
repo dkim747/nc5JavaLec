@@ -1,0 +1,14 @@
+package chap18_enum.enums;
+
+public enum RGB {
+	
+	//상수명 RED("red", 255, 0, 0), 
+	//	   GREEN(
+	//		BLUE( 
+	
+	private String COLOR;
+	private int A;
+	private int B;
+	private int C;
+	
+}

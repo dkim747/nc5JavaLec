@@ -1,0 +1,10 @@
+package chap999_homework;
+
+public class PracticePhoneInfo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

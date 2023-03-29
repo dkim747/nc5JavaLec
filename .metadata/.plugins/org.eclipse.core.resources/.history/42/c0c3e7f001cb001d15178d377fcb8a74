@@ -1,0 +1,24 @@
+package chap999_homework_2023_03_16;
+
+import java.util.Random;
+
+public class _homeworkBasic02 {
+
+	public static void main(String[] args) {
+		
+		//1.
+		int[] arr = new int[20];
+		Random rand = new Random();
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = rand.nextInt(101);
+			System.out.println(arr[i]);
+			if(i%2==1) {
+				System.out.println(arr[i]);
+				System.out.println("----------------------");
+			}else if(i%2==0) {
+				
+			}
+		}
+		
+	}
+}

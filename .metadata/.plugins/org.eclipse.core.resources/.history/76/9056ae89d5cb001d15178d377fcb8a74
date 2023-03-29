@@ -1,0 +1,36 @@
+package chap999_homework_2023_03_24;
+
+import java.util.Calendar;
+
+public class Advanced {
+
+	public static void main(String[] args) {
+		
+		Calendar cal = Calendar.getInstance();
+		
+		cal.set(2001, 12, 19);
+		
+		int year = 2001;
+		if () {
+			
+		}else {
+			
+		}
+		
+		public boolean isLeap(int year) {
+			if(year % 400 == 0 || year % 100 == 0 && year % 4 ==0) {
+				return true;
+			}else {
+				return false;
+			}
+		}
+		
+		
+		
+		
+//		결혼 기념일 2001 12 19
+//		윤년이 있으면 1일씩 더한다 
+//		2022년의 결혼기념일을 구해라
+	}
+
+}

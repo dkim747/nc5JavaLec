@@ -1,0 +1,23 @@
+package chap999_homework_2023_03_22.Basic;
+
+import java.util.Scanner;
+
+public class Stringhw {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String str1 = sc.nextLine();
+		String[] evenStr = new String[str1.length()];
+		
+		for(int i = 0; i < str1.length(); i++) {
+			if((str1.length())%2 == 0) {
+				evenStr[i] = 
+			}
+		}
+		
+		
+	}
+
+}
