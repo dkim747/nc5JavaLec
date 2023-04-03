@@ -1,0 +1,16 @@
+package chap999_homework_2023_04_02;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class StudentName {
+	
+	ArrayList<String> nameList = new ArrayList<String>();
+	Scanner sc = new Scanner(System.in);
+	
+	private String stnName;
+		
+	public void insertStnName() {
+		nameList.add(sc.nextLine());
+	}
+}

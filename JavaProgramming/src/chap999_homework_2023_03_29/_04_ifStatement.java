@@ -45,8 +45,8 @@ public class _04_ifStatement {
 //					break;
 //					
 //		}
-		
-		//4.
+//		
+//		//4.
 //		System.out.println("숫자를 입력하세요.");		
 //		int input = sc.nextInt();
 //		
@@ -72,28 +72,40 @@ public class _04_ifStatement {
 //		}
 		
 		//6.
-//		System.out.println("정수 5개를 입력하세요.");
-//		
-//		int[] arr = new int[5];
-//		
-//		for(int i = 0; i < arr.length; i++) {
-//			arr[i] = sc.nextInt();
-//		}
-//		
-//		for(int i = 0; i < arr.length - 1; i++) {
-//			for(int j = i + 1; j < arr.length; j++) {
-//				if(arr[i] > arr[j]) {
-//					int bin = arr[i];
-//					arr[i] = arr[j];
-//					arr[j] = bin;
-//					
-//				}
-//			}
-//			System.out.println(arr[i]);
-//		}
-//		for(int i = 0; i < arr.length; i++) {
-//			System.out.println(arr[i]);
-//		}
+		System.out.println("정수 5개를 입력하세요.");
+		
+		int[] arr = new int[5];
+		int cntI = 0;
+		int cntJ = 0;
+		
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = sc.nextInt();
+		}
+		
+		for(int i = 0; i < arr.length-1; i++) {
+			
+			for(int j = i + 1; j < arr.length; j++) {				
+				if(arr[i] > arr[j]) {
+					int bin = arr[i];
+					arr[i] = arr[j];
+					arr[j] = bin;
+					
+					if(i > 0&&i<arr.length) {
+						cntI++;
+					}
+					if (j < arr.length && j > 0) {
+						cntJ++;
+					}
+					
+				}
+			}
+			
+		}
+		System.out.println(cntI + "" + cntJ);
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.println(arr[i]);
+		}
 		
 		//7.
 //		System.out.println("문자열을 입력하세요.");
@@ -111,47 +123,53 @@ public class _04_ifStatement {
 		//8.
 //		int input1 = sc.nextInt();
 //		int input2 = sc.nextInt();
-//		
-//		switch(input1 == input2) {
-//		
+//		int a;
+//		if(input1 == input2) {
+//			a=1;
 //		}
+//		else if(input1 > input2){
+//			a=2;
+//		}
+//		else {a=3;}
+//		
+//		switch(a) {
+//		case 1:
+//			System.out.println("rjxrnqiwnix");
+//		}
+		
 		
 		//9.
 
-		int input1 = sc.nextInt();
-		int input2 = sc.nextInt();
-		int input3 = sc.nextInt();	
+//		int input1 = sc.nextInt();
+//		int input2 = sc.nextInt();
+//		int input3 = sc.nextInt();	
 		
-		int cntEvenNum = 0;
-		int cntOddNum = 0;
+//		int cntEvenNum = 0;
+//		int cntOddNum = 0;
 //		
 //		int[] arr = new int[3];
 //		
 //		for(int i = 0; i < arr.length; i++) {
 //			arr[i] = sc.nextInt();
-//		}
-//		
-//		for(int i = 0; i < arr.length; i++) {
 //			if(arr[i] % 2 == 0) {
-//				System.out.println("모두 짝수입니다.");
+//				//System.out.println("모두 짝수입니다.");
 //				cntEvenNum++;
 //			}else if(arr[i] % 2 == 1) {
-//				System.out.println("모두 홀수입니다.");
+//				//System.out.println("모두 홀수입니다.");
 //				cntOddNum++;
-//			}else{
-//				System.out.println("짝수 : " + cntEvenNum + "홀수 : " + cntOddNum);
 //			}
 //		}
 		
-		if(input1 % 2 == 0 && input2 % 2 == 0 && input3 % 2 == 0) {
-			System.out.println("모두 짝수입니다.");
-			cntEvenNum++;
-		}else if(input1 % 2 == 1 && input2 % 2 == 1 && input3 % 2 == 1){
-			System.out.println("모두 홀수입니다.");
-			cntOddNum++;
-		}else {
-			System.out.println("짝수 : " + cntEvenNum + "홀수 : " + cntOddNum);
-		}
+//		System.out.println("짝수 : " + cntEvenNum + "홀수 : " + cntOddNum);
+//		if(input1 % 2 == 0 && input2 % 2 == 0 && input3 % 2 == 0) {
+//			System.out.println("모두 짝수입니다.");
+//			cntEvenNum++;
+//		}else if(input1 % 2 == 1 && input2 % 2 == 1 && input3 % 2 == 1){
+//			System.out.println("모두 홀수입니다.");
+//			cntOddNum++;
+//		}else {
+//			System.out.println("짝수 : " + cntEvenNum + "홀수 : " + cntOddNum);
+//		}
 		
 		
 		

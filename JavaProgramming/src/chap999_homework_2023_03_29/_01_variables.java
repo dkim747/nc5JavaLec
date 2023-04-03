@@ -78,36 +78,36 @@ public class _01_variables {
 //		System.out.println(avg);
 		
 		//5.
-		int[] arr2 = new int[3];
-		
-		for(int i = 0; i < arr2.length; i++) {
-			arr2[i] = sc.nextInt();					
-		}		
-		
-		int min = arr2[0];
-		for(int i = 1; i < arr2.length; i++) {
-			if(min > arr2[i]) {
-				min = arr2[i];
-			}
-		}
-		System.out.println("최소값: " + min);
-		
-		int max = arr2[0];
-		for(int i = 1; i < arr2.length; i++) {
-			if(max < arr2[i]) {
-				max = arr2[i];
-			}
-		}
-		System.out.println("최대값: " + max);
-		
-		
-		for(int i = 0; i < arr2.length; i++) {
-			int med = arr2[i];
-			if(med < max && med > min) {
-				med = arr2[i];
-				System.out.println("중간값: " + med);
-			}		
-		}
+//		int[] arr2 = new int[3];
+//		
+//		for(int i = 0; i < arr2.length; i++) {
+//			arr2[i] = sc.nextInt();					
+//		}		
+//		
+//		int min = arr2[0];
+//		for(int i = 1; i < arr2.length; i++) {
+//			if(min > arr2[i]) {
+//				min = arr2[i];
+//			}
+//		}
+//		System.out.println("최소값: " + min);
+//		
+//		int max = arr2[0];
+//		for(int i = 1; i < arr2.length; i++) {
+//			if(max < arr2[i]) {
+//				max = arr2[i];
+//			}
+//		}
+//		System.out.println("최대값: " + max);
+//		
+//		
+//		for(int i = 0; i < arr2.length; i++) {
+//			int med = arr2[i];
+//			if(med < max && med > min) {
+//				med = arr2[i];
+//				System.out.println("중간값: " + med);
+//			}		
+//		}
 		
 		//6.
 //		System.out.println("숫자를 입력하세요.");

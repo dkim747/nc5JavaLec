@@ -67,17 +67,7 @@ public class _02_arrayListWithType {
 			}
 			
 			//인터페이스를 이용해서 다형성 구현도 가능
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+					
 	}
 
 }

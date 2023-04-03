@@ -1,0 +1,35 @@
+package chap999_homework_2023_04_02_class;
+
+import java.util.Scanner;
+
+public class No1 {
+	
+	public String[] stnName;
+	public int[] stnNum;
+	public String[] major;
+	
+	int index = 0;
+	
+	public No1(){
+		
+	}
+	
+	public void insertStnInfo() {
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0; i < 100; i++) {
+			
+			System.out.println("학생 정보를 입력하세요. 이름 학번 전공");			
+			stnName[index] = sc.nextLine();
+			stnNum[index] = sc.nextInt();
+			sc.nextLine();
+			major[index] = sc.nextLine();
+			index++;
+		}
+			
+	}
+	
+	public void printStnInfo() {
+		System.out.println(this.stnName[index] + this.stnNum[index] + this.major[index]);
+	}
+}

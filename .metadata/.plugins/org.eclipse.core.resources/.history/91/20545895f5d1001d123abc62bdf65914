@@ -1,0 +1,23 @@
+package chap19_multithread.clazz;
+
+public class InterruptThread extends Thread {
+
+	@Override
+	public void run() {
+		
+	try {
+		while(true) {
+			System.out.println("스레드 실행됨");			
+				//Thread.sleep(1);
+				//Thread.interrupted(): interrupt가 발생했는지를 확인해 주는 메소드를 사용해서 스레드를 종료시킬 수 있다.
+		}
+			}catch(InterruptedException ie) {
+				System.out.println(ie.getMessage());
+				System.out.println("스레드 종료");
+			
+			}finally {
+				
+			}
+	
+	}
+}

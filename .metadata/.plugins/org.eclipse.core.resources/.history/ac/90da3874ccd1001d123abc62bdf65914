@@ -1,0 +1,9 @@
+package chap19_multithread;
+
+public class _07_joinMethodEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}

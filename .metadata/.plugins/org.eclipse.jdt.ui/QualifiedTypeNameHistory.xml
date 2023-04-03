@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="chap999_homework_2023_03_21.Basic.Car"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="java.math.RoundingMode"/>
@@ -29,4 +28,8 @@
     <fullyQualifiedTypeName name="chap18_enum.enums.RGB"/>
     <fullyQualifiedTypeName name="chap18_enum.enums.MethodMonth"/>
     <fullyQualifiedTypeName name="chap18_enum.enums.Calculator"/>
+    <fullyQualifiedTypeName name="chap18_enum.enums.Season"/>
+    <fullyQualifiedTypeName name="practice.justclasses.Student"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package practice;
+
+import practice.justclasses.Student;
+
+public class useOfStudent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student stn = new Student();
+		
+		Student stn1 = new Student("김", 60, 1);
+		
+		System.out.println(stn1.name);
+		System.out.println(stn1.name +"핮점 : " + stn1.grade + stn1.stnNo);
+		
+		stn1.putName();
+		stn.putName();
+	}
+
+}

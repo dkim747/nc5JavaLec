@@ -1,0 +1,31 @@
+package chap19_multithread.clazz;
+
+public class PrintNumWithSync {
+	
+	private int num;
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+	
+	//동기화 메소드
+	public synchronized void printNum1() {
+		for (int i = 1; i < this.num; i++) {
+			System.out.println(i);
+
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+			
+	public void printNum2() {
+			this.setNum(num);
+				
+		for(int i = this.num; i < num * 2; i++) {
+				System.out.println(i);
+		}
+	}
+}

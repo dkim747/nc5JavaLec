@@ -1,0 +1,44 @@
+package practice;
+
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+
+public class bubbleArray {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		char[] ch = new char[2];
+
+		for(int i = 0; i < ch.length; i++){
+
+			ch[i] = sc.nextLine().charAt(i);
+		}
+		
+		for(int i = 0; i < ch.length; i++) {
+			System.out.print((int)ch[i]);
+		}
+		
+		String[] a = {"water", "cup"};
+		System.out.println(a.length);
+		
+		
+		
+		
+//		char[] b = {'a', 'b', 'c'};
+//		String[] c = {"a", "b", "c"};
+//		System.out.println(b);
+//		System.out.println(Arrays.toString(c));
+//		System.out.println(Arrays.toString(c).charAt(0));
+//		
+//		for(int i = 0; i < b.length; i++) {
+//			System.out.println(b[i]);
+//		}
+//		
+		
+		
+	}
+
+}

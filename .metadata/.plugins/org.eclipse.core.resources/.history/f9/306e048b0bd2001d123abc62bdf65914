@@ -1,0 +1,7 @@
+package chap999_homework_2023_04_02;
+
+public class _02_class_01 {
+	private String stnName;
+	private int stnNo;
+	private String major;
+}

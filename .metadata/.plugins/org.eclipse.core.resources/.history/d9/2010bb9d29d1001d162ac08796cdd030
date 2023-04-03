@@ -1,0 +1,14 @@
+package practice.justclasses;
+
+public class Ipsi {
+	
+	public int stnSeatNo;
+	public String stnName;
+	public int time;
+	
+	public void insertStnInfo(int stnSeatNo, String stnName) {
+		this.stnSeatNo = stnSeatNo;
+		this.stnName = stnName;
+	}
+	
+}

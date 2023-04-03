@@ -1,0 +1,34 @@
+package chap999_homework_2023_03_29;
+
+import java.util.Scanner;
+
+public class _03_operator {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//1.
+//		int input1 = sc.nextInt();
+//		int input2 = sc.nextInt();
+//		
+//		int sum = input1 + input2;
+//		int sub = input1 - input2;
+//		int mul = input1 * input2;
+//		int div = input1 / input2;
+//		int rm = input1 % input2;
+		
+		//2.
+		int a = 20;
+		System.out.println(++a);
+		System.out.println(++a);
+		System.out.println(a++);
+		System.out.println(--a);
+		System.out.println(--a);
+		
+		
+		
+		
+	}
+
+}

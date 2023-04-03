@@ -1,0 +1,39 @@
+package chap19_multithread.clazz;
+
+public class PrintNumOneToTwenty {
+	
+	private int num;
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+	
+	public synchronized void printnum1(int num) {
+		this.setNum(num);
+		for(int i = 0; i <= this.num; i++) {
+			System.out.println(i);
+			notify();
+			
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				System.out.println(e.getMessage());
+			}
+			
+		}
+	}
+	
+	public synchronized void printnum2(int num) {
+		this.setNum(num);
+		for(int i = num; i <= this.num*2; i++) {
+			System.out.println(i);
+			notify();
+			
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+}

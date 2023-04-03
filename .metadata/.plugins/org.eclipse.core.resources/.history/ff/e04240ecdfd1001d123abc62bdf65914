@@ -1,0 +1,15 @@
+package chap19_multithread.clazz;
+
+public class NonSyncThread1 extends Thread{
+	
+	private PrintNumWithoutSync pns;
+	
+	public NonSyncThread1() {
+		
+	}
+	
+	public void setPns(PrintNumWithourSync pns) {
+		this.pns = pns;
+	}
+
+}

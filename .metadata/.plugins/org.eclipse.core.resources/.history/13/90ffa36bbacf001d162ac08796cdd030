@@ -1,0 +1,14 @@
+package practice;
+
+public class CharAt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] str = {"water", "cup", "glass", "juice"};
+		
+		for(int i = 0; i < str.length; i++) {
+			System.out.println(str[i].charAt(4));
+		}
+	}
+
+}

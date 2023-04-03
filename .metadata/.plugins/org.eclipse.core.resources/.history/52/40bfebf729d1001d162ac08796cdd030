@@ -1,0 +1,21 @@
+package practice.justclasses;
+
+import java.util.Scanner;
+
+public class Ipsi {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public int stnSeatNo;
+	public String stnName;
+	public int schedule;
+	
+	public void insertStnInfo(int stnSeatNo, String stnName, int schedule) {
+		this.stnSeatNo = sc.nextInt();
+		this.stnName = sc.nextLine();
+		this.schedule = sc.nextInt();
+	}
+	
+	public void 
+	
+}

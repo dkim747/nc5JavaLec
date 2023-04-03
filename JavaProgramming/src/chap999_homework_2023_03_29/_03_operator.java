@@ -74,7 +74,7 @@ public class _03_operator {
 		String str = sc.nextLine();
 		int num = sc.nextInt();
 		
-		System.err.println("입력한 문자열 " + str + "이고, 입력한 숫자는" + num + "입니다.");
+		System.out.println("입력한 문자열 " + str + "이고, 입력한 숫자는" + num + "입니다.");
 		
 		
 				

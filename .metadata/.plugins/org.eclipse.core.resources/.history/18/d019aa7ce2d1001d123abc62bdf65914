@@ -1,0 +1,12 @@
+package chap19_multithread;
+
+import chap19_multithread.clazz.PrintNumWithSync;
+
+public class _09_syncShareObj {
+
+	public static void main(String[] args) {
+		
+		PrintNumwithSync pns = new PrintNumWithSync();
+	}
+
+}

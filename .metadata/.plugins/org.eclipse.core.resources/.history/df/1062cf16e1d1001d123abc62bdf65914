@@ -1,0 +1,24 @@
+package chap19_multithread;
+
+import chap19_multithread.clazz.NonSyncThread1;
+import chap19_multithread.clazz.PrintNumWithoutSync;
+
+public class _08_nonSyncShareObj {
+
+	public static void main(String[] args) {
+		
+		PrintNumWithoutSync pns = new PrintNumWithoutSync();
+		
+		NonSyncThread1 nst1 = new NonsyncThread1();
+		NonsyncThread2 nst2 = new NonsyncThread2();
+		
+		nst1.setPns(pns);
+		nst2.setPns(pns);
+		
+		nst1.start();
+		nst2.start();
+		
+		
+	}
+
+}

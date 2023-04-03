@@ -1,0 +1,34 @@
+package practice.justclasses;
+
+import java.util.Scanner;
+
+public class Student {
+	
+	
+	
+	public String name;
+	public int grade;
+	public int stnNo;
+	
+	public Student() {
+		
+	}
+	
+	public Student(String name, int grade, int stnNo) {
+		this.name = name;
+		this.grade = grade;
+		this.stnNo = stnNo;
+	}
+	
+	public void putName() {
+		System.out.println(name);
+	}
+	
+	public void putGrade() {
+		System.out.println(grade);
+	}
+	
+	public void putstnNo() {
+		System.out.println(stnNo);
+	}
+}
