@@ -1,0 +1,11 @@
+package chap19_multithread;
+
+public class _13_multiThreadEx {
+
+	public static void main(String[] args) {
+		
+		Thread p1 = new Thread();
+		Thread p2 = new Thread();
+		Thread p3 = new Thread();
+	}
+}

@@ -1,0 +1,19 @@
+package chap19_multithread.clazz;
+
+public class PracticeThread2 extends Thread {
+	
+	private PracticeThread pn1;
+
+	public PracticeThread getPn1() {
+		return pn1;
+	}
+
+	public void setPn1(PracticeThread pn1) {
+		this.pn1 = pn1;
+	}
+	
+	@Override
+	public void run() {
+		pn1.printNum2(10);
+	}
+}

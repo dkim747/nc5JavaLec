@@ -1,0 +1,16 @@
+package chap20_lambda;
+
+import chap20_lambda.clazz.Converter;
+
+public class _05_referenceMethod {
+
+	public static void main(String[] args) {
+
+		
+	}
+	
+	public static void action(Converter con) {
+		int result = con.conv(1000000, '$');
+	}
+
+}

@@ -1,0 +1,31 @@
+package chap20_lambda;
+
+import java.util.Scanner;
+
+import chap20_lambda.clazz.CompareStr;
+
+public class _07_useOfCompareStr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		action(String :: equals);
+	}
+	
+	public static void action(CompareStr cs) {
+		Scanner sc = new Scanner(System.in);
+		
+		String a = sc.nextLine();
+		String b = sc.nextLine();
+		
+		boolean result = cs.compareTwoStr(a, b);
+		
+		if(a.equals(b)){
+			System.out.println("a와 b는 같습니다.");
+		}else {
+			System.out.println("a와 b는 다릅니다.");
+		}
+		
+		
+	}
+
+}

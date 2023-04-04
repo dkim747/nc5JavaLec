@@ -32,4 +32,21 @@
     <fullyQualifiedTypeName name="practice.justclasses.Student"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="chap19_multithread.clazz.PrintNumWithoutSync"/>
+    <fullyQualifiedTypeName name="chap19_multithread.clazz.NonSyncThread1"/>
+    <fullyQualifiedTypeName name="chap19_multithread.clazz.SyncThread1"/>
+    <fullyQualifiedTypeName name="chap19_multithread.clazz.SyncThread2"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="chap999_homework_2023_04_02.Student"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+    <fullyQualifiedTypeName name="chap20_lambda.clazz.Calculator"/>
+    <fullyQualifiedTypeName name="chap20_lambda.clazz.Add"/>
+    <fullyQualifiedTypeName name="chap20_lambda.clazz.CustomString2"/>
+    <fullyQualifiedTypeName name="chap20_lambda.clazz.MoneyConverter"/>
+    <fullyQualifiedTypeName name="chap20_lambda.clazz.UpperCaseInter"/>
+    <fullyQualifiedTypeName name="chap20_lambda.clazz.CompareStr"/>
+    <fullyQualifiedTypeName name="practice.justclasses.Calculator"/>
+    <fullyQualifiedTypeName name="chap999_homework_2023_04_04.clazz.PrintNum"/>
+    <fullyQualifiedTypeName name="chap999_homework_2023_04_04.PrintArr"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,31 @@
+package chap999_homework_2023_04_04;
+
+import java.util.Scanner;
+
+import chap999_homework_2023_04_04.clazz.PrintNum;
+
+public class PrintArr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public static void action(PrintNum pn) {
+		Scanner sc = new Scanner(System.in);
+		
+		int[] arr = new int[5];		
+		
+		for(int i = 0; i < 100; i++) {
+			arr[i] = sc.nextInt();
+			if(i % 2 == 0) {
+				
+			}
+		}
+		
+		
+		
+		
+	}
+
+}

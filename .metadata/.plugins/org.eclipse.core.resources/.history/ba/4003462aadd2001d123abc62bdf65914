@@ -1,0 +1,6 @@
+package chap20_lambda.clazz;
+
+@FunctionalInterfaces
+public interface Add {
+	public void add();
+}

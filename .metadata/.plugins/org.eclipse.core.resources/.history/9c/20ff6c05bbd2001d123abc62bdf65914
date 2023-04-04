@@ -1,0 +1,10 @@
+package chap20_lambda.clazz;
+
+@FunctionalInterface
+public interface CustomString3 {
+	int indexOf(String a, String b, char c);
+	
+	
+	
+	
+}

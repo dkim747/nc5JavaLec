@@ -1,0 +1,6 @@
+package chap20_lambda.clazz;
+
+@FunctionalInterface
+public interface UppercaseInter {
+	public String allUpperCase(String a, String b);
+}

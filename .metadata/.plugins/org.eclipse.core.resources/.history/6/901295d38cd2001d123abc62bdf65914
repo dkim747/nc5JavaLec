@@ -1,0 +1,23 @@
+package chap19_multithread;
+
+public class _13_multiThreadEx {
+
+	public static void main(String[] args) {
+		
+		Thread p1 = new Thread();
+		Thread p2 = new Thread();
+		Thread p3 = new Thread();
+		
+		p1.start();
+		
+		try {
+			p1.join();
+			p2.start();
+			p2.join();
+			p3.start()
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

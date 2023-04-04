@@ -1,0 +1,24 @@
+package chap19_multithread;
+
+public class _16_threadPool {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class printThread extends Thread{
+	
+	public String Name;	
+	
+	public void setName(String name) {
+		Name = name;
+	}
+
+	@Override
+	public void run() {
+		
+	}
+}
